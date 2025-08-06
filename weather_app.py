@@ -10,7 +10,7 @@ load_dotenv()
 # Get the API key from environment variables
 # Ensure you have a .env file with the line:
 
-API_KEY = st.secrets("API_KEY")
+API_KEY = os.getenv("API_KEY")
 
 
 cities_name = [
