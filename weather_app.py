@@ -2,9 +2,7 @@ import streamlit as st
 import requests
 from datetime import datetime
 
-API_KEY = st.secreets["API_KEY"]
-
-
+API_KEY = "f2b176eab4c5e37267221c1009bfe3c4"
 
 cities_name = [
     "Mumbai", "Delhi", "Bengaluru", "Hyderabad", "Ahmedabad", "Chennai",
