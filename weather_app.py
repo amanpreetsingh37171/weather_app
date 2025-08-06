@@ -2,6 +2,8 @@ import streamlit as st
 import requests
 from datetime import datetime
 
+API_KEY = st.secreets["API_KEY"]
+
 
 
 cities_name = [
