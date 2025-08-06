@@ -1,16 +1,7 @@
 import streamlit as st
 import requests
 from datetime import datetime
-from dotenv import load_dotenv
-import os
 
-
-# Load environment variables from .env file
-load_dotenv()
-# Get the API key from environment variables
-# Ensure you have a .env file with the line:
-
-API_KEY = os.getenv("API_KEY")
 
 
 cities_name = [
