@@ -1,8 +1,15 @@
 import streamlit as st
 import requests
 from datetime import datetime
+from dotenv import load_dotenv
+import os
 
-API_KEY = "f2b176eab4c5e37267221c1009bfe3c4"
+# Load environment variables from .env file
+load_dotenv()
+# Get the API key from environment variables
+# Ensure you have a .env file with the line:
+API_KEY = os.getenv("API_KEY")
+
 
 cities_name = [
     "Mumbai", "Delhi", "Bengaluru", "Hyderabad", "Ahmedabad", "Chennai",
